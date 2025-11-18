@@ -22,17 +22,21 @@ This is the backend for the **ShoppyGlobe E-commerce** application, built with *
    ```bash
    git clone https://github.com/KhushbuKumari21/-Shoppyglobe-E-commerce-backend-using-node-js-and-express.git
    cd shoppyglobe-backend
-2.Install dependencies:
-  npm install
-3.Create a .env file in the root with:
-PORT=5000
-MONGO_URI=mongodb+srv://Khushbu123:Khushi%40123@cluster0.jkc0wof.mongodb.net/shoppyglobe?retryWrites=true&w=majority
-JWT_SECRET=977a4d06-9a83-493c-838a-e3e5163371e9
+2. Install dependencies:
+```bash
+   npm install
 
-4. Seed the database with sample products:
-  npm run seed
+3.Create a .env file in the root with:
+
+   PORT=5000
+   MONGO_URI=mongodb+srv://Khushbu123:Khushi%40123@cluster0.jkc0wof.mongodb.net/shoppyglobe?retryWrites=true&w=majority
+   JWT_SECRET=977a4d06-9a83-493c-838a-e3e5163371e9
+
+4.Seed the database with sample products:
+   npm run seed
+
 5.Start the server:
-npm run dev
+  npm run dev
 
 The API will run at http://localhost:5000
 
