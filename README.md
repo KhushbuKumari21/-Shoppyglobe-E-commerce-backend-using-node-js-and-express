@@ -63,10 +63,17 @@ The API will run at http://localhost:5000
 | PUT    | /api/cart/:productId | Update quantity of a product                    |
 | DELETE | /api/cart/:productId | Remove product from cart                        |
 
-# Testing :
-Test APIs using ThunderClient
+# API Testing
 
-Include screenshots of successful and failed requests (e.g., invalid JWT, insufficient stock).
-D:\shoppyglobe-backend\Output Image
+All APIs have been tested using **ThunderClient**.  
+The screenshots for all test cases are saved in the `Output Image` folder:
+
+**Folder path:** `D:\shoppyglobe-backend\Output Image`
+
+**Included screenshots:**
+- Successful requests
+- Failed requests (e.g., invalid JWT, insufficient stock)
+
+
 
 **#Github Link : -** https://github.com/KhushbuKumari21/-Shoppyglobe-E-commerce-backend-using-node-js-and-express
